@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(32, 27, 127), rgb(45, 188, 188));
+}
+.centerDiv {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  min-height: 100vh;
+  background-color: white;
+  height: 100%;
+}
+.inputet {
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  border-bottom: 2px;
+  border-bottom-color: black;
+}
+.formulari {
+  margin: 20px 15px 20px 15px;
+}
+
+input {
+  height: 20px;
+}
+select {
+  padding: 4px;
+}
+.shto {
+  color: aliceblue;
+  border-radius: 5px;
+  width: 60px;
+  height: 26px;
+  border: none;
+  background-color: rgb(76, 123, 211);
+}
+hr {
+  background-color: gray;
+  margin-top: 3px;
+  border: 0;
+  height: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.search {
+  margin-top: 20px;
+  height: 50px;
+  margin-left: 15px;
+}
+.infoDiv {
+  border-color: rgb(164, 157, 157);
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+  box-shadow: 0px 4px 5px 0px #d0cccc;
+}
+
+.deleteButton {
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: large;
+  border: 0;
+  line-height: 200px;
+  border-radius: 30px;
+  grid-area: deleteButton;
+  background-color: red;
+  color: white;
+}
+.imgDiv {
+  width: 10%;
+}
+.emriDiv {
+  width: 80%;
+}
+.deleteDiv {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  float: right;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #aeaaaa;
+  border-radius: 40px;
+}
+.emri {
+  padding: 0;
+  margin: 0;
+}
+.roli {
+  padding: 0;
+  font-weight: bold;
+  margin: 0;
+  font-size: small;
+}
